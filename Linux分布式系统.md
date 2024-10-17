@@ -917,7 +917,7 @@ docker exec \
 - `GENERATE_EXTENSIONS`— 如果`LANGUAGE`省略，则必须将其设置为`protoc`生成的扩展。
 - `PROTOC_OPTIONS`— 转发到`protoc`调用的其他参数。
 
-### 使用步骤
+## 使用步骤
 
 1. 定义IDL文件即.proto文件：test.proto
 

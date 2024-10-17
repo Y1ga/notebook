@@ -1129,7 +1129,7 @@ s.say();
 
 ### 向下转型
 
-```
+```java
 Animal animal = new Cat(); // 本来animal指向的就是Cat对象，即运行类型是Cat
 Cat cat = (Cat) animal; // 编译类型是Cat，运行类型是Cat，animal的编译类型是Animal
 Dog dog = (Dog) animal; // 错误，因为animal指向的不是dog类型
